@@ -10,8 +10,7 @@ import time
 from datetime import datetime
 from typing import Optional
 
-from ..core.client import NTPClient, NTPClientConfig
-from ..core.parser import NTPQueryResult
+from ..core.client import NTPClient, NTPClientConfig, NTPQueryResult
 
 
 class HixbeTimeCLI:
