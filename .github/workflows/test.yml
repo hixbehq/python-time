@@ -36,10 +36,10 @@ jobs:
       continue-on-error: true
     
     - name: Test import
-      run: python -c "from hixbe_time import NTPClient, NTPClientConfig; print('✅ Import successful')"
+      run: python -c "from hixbe_time import NTPClient, NTPClientConfig; print('Import successful')"
     
     - name: Test instantiation
-      run: python -c "from hixbe_time import NTPClient, NTPClientConfig; client = NTPClient(); print('✅ Client instantiation successful')"
+      run: python -c "from hixbe_time import NTPClient, NTPClientConfig; client = NTPClient(); print('Client instantiation successful')"
     
     - name: Run showcase
       run: python SHOWCASE.py
